@@ -47,7 +47,67 @@ const account2 = {
   locale: 'en-US',
 };
 
-const accounts = [account1, account2];
+const account3 = {
+  owner: 'Ayinda Mary',
+  movements: [4700, 7000, -1500, -290, -2210, -1040, 8500, -30],
+  interestRate: 1.3,
+  pin: 3333,
+
+  movementsDates: [
+    '2022-11-12T13:15:33.035Z',
+    '2022-11-18T09:48:16.867Z',
+    '2023-12-21T06:04:23.907Z',
+    '2023-01-25T14:18:46.235Z',
+    '2024-02-15T16:33:06.386Z',
+    '2025-04-14T14:43:26.374Z',
+    '2025-04-29T18:49:59.371Z',
+    '2025-05-11T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+
+const account4 = {
+  owner: 'Ankeli Emmanuel',
+  movements: [800, 455.23, -406.5, 22000, -642.21, -1033.9, 79.97, 4300],
+  interestRate: 1.2, // %
+  pin: 4444,
+
+  movementsDates: [
+    '2019-11-28T21:31:17.178Z',
+    '2019-12-07T07:42:02.383Z',
+    '2024-01-30T09:15:04.904Z',
+    '2024-04-30T10:17:24.185Z',
+    '2024-05-08T14:11:59.604Z',
+    '2024-07-20T17:01:17.194Z',
+    '2025-04-18T23:36:17.929Z',
+    '2025-05-12T10:51:36.790Z',
+  ],
+  currency: 'EUR',
+  locale: 'pt-PT', // de-DE
+};
+
+const account5 = {
+  owner: 'Alhasan Sani',
+  movements: [7500, 6500, -3000, -190, -2910, -5040, 10500, -300],
+  interestRate: 1.2,
+  pin: 5555,
+
+  movementsDates: [
+    '2022-11-12T13:15:33.035Z',
+    '2022-11-18T09:48:16.867Z',
+    '2023-12-21T06:04:23.907Z',
+    '2023-01-26T14:18:46.235Z',
+    '2024-02-17T16:33:06.386Z',
+    '2025-03-25T14:43:26.374Z',
+    '2025-04-22T18:49:59.371Z',
+    '2025-05-11T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+
+const accounts = [account1, account2, account3, account4, account5];
 
 /////////////////////////////////////////////////
 // Elements
@@ -403,7 +463,7 @@ btnClose.addEventListener('click', function (e) {
     accounts.splice(index, 1);
 
     //Hide UI:
-    containerApp.style.opacity = 0;             
+    containerApp.style.opacity = 0;
   }
 
   //Clearing the input field

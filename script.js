@@ -89,7 +89,7 @@ const account4 = {
 
 const account5 = {
   owner: 'Elo-oghene Faith',
-  movements: [7500, 6500, -3000, -190, -2910, -5040, 10500, -300],
+  movements: [7500, 6500, -3000, -190, 2910, -5040, 10500, -300],
   interestRate: 1.2,
   pin: 5555,
 

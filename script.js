@@ -8,7 +8,7 @@
 // Data
 
 const account1 = {
-  owner: 'Jonas Schmedtmann',
+  owner: 'Ugo Francis',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -28,7 +28,7 @@ const account1 = {
 };
 
 const account2 = {
-  owner: 'Jessica Davis',
+  owner: 'Ayinda Mary',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
@@ -48,7 +48,7 @@ const account2 = {
 };
 
 const account3 = {
-  owner: 'Ayinda Mary',
+  owner: 'Emmanuel Ankeli',
   movements: [4700, 7000, -1500, -290, -2210, -1040, 8500, -30],
   interestRate: 1.3,
   pin: 3333,

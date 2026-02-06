@@ -68,7 +68,7 @@ const account3 = {
 };
 
 const account4 = {
-  owner: 'Ankeli Emmanuel',
+  owner: 'Fortune Ankeli',
   movements: [800, 455.23, -406.5, 22000, -642.21, -1033.9, 79.97, 4300],
   interestRate: 1.2, // %
   pin: 4444,
